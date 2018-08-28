@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Hostname
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/hostname/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
@@ -44,6 +44,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hostname/master/_listings/sendgrid/userwebhooksparsesettingshostname-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/hostname/master/_listings/sendgrid/userwebhooksparsesettingshostname-get-openapi.md
+- name: SendGrid - Patch User Webhooks Parse Settings Hostname
+  x-api-slug: userwebhooksparsesettingshostname-patch
+  description: |-
+    **This endpoint allows you to update a specific inbound parse setting.**
+
+    The inbound parse webhook allows you to have incoming emails parsed, extracting some or all of the contnet, and then have that content POSTed by SendGrid to a URL of your choosing. For more information, please see our [User Guide](https://sendgrid.com/docs/API_Reference/Webhooks/parse.html).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
+  humanURL: http://sendgrid.com
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/hostname/master/_listings/sendgrid/userwebhooksparsesettingshostname-patch-openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
